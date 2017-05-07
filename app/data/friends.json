@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Ahmed",
+        "photo": "https://pbs.twimg.com/profile_images/606173314290053120/RvyQ4b7b.jpg",
+        "scores": [
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+        ]
+    },
+    {
+        "name": "Erik",
+        "photo": "https://s3-media2.fl.yelpcdn.com/bphoto/yLdcUeVrOcqFQvi0iQnqiA/ls.jpg",
+        "scores": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ]
+    },
+    {
+        "name": "Josh",
+        "photo": "https://static.comicvine.com/uploads/scale_super/11120/111209791/4960006-7100483329-coold.jpg",
+        "scores": [
+            2,
+            1,
+            4,
+            1,
+            5,
+            5,
+            5,
+            3,
+            5,
+            5
+        ]
+    }
+]

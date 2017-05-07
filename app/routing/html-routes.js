@@ -4,13 +4,15 @@ var path = require('path');
 
 // Routes
 module.exports = function (app) {
-    // Route that sends the user to the home page
-
-    app.get("/", function (req, res) {
-        res.sendFile(path.join(__dirname, "../public/home.html"));
-    });
     // Route that sends the user to the survey page
     app.get("/survey", function (req, res) {
-        res.sendFile(path.join(__dirname, "../public/survey.html"));
+        res.sendFile(path.join(process.cwd(), "app/public/survey.html"));
+    });
+    app.get("/assets/style.css", function (req, res) {
+        res.sendFile(path.join(process.cwd(), "app/public/assets/style.css"));
+    });    
+    // Route that sends the user to the home page defaults for all paths not served
+    app.use("/", function (req, res, next) {
+        res.sendFile(path.join(process.cwd(), "app/public/home.html"));
     });
 };
