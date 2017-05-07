@@ -2,3 +2,17 @@ body {
 	max-width: 980px;
 	margin: auto;
 }
+
+#matchName {
+	font-size: 48px;
+	font-weight: bold;
+	align-content: center;
+	margin: auto;
+	text-align: center;
+}
+
+#matchPhoto {
+	align-content: center;
+	margin: auto;
+	display: block;
+}
